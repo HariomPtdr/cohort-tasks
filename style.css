@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'apple';
+    src: url('./sf-pro-display_regular.woff2') format('truetype');
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: white;
+    font-family: apple ;
+}
+#nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color:#CCCCCC;
+    
+
+}
+.ip{
+    padding: 50px;
+    height: 85%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.i{
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+#ip17{
+    padding: 80px;;
+    background-image: url(./hero_iphone_17_pro.jpg);
+}
+.h11{
+    font-size: 55px;
+}
+.h55{
+    font-size: 30px;
+    font-weight: 300;
+}
+.h1{
+    font-size: 37px;
+}
+.h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+.bb{
+    margin: 20px 10px;
+    padding: 13px 22px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.b{
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+#b1{
+    background-color: #0177ED;
+    border: none;
+    color: white;
+
+}
+#b2{
+    background-color: transparent;
+    border-color: #0177ED;
+    color: #0177ED;
+    border-width: 1px;
+    border-style: groove;
+    
+    
+}
+#b2:hover{
+    background-color: #0177ED;
+    color: white;
+    transform: scale(1.05);
+}
+#ipAir{
+    color: black;
+    margin-top: 10px;
+    background-image: url(./hero_iphone_air_.jpg);
+}
+#new{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    height: 71%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#ip17m{
+    color: black;
+    background-image: url(./promo_iphone_17_.jpg);
+}
+#Ap3{
+    color: black;
+    background-image: url(./promo_airpodspro_3_.jpg);
+}
+#Ws11{
+    color: black;
+    background-image: url(./promo_apple_watch_series_11.jpg);
+}
+#Wse3{
+    color: black;
+    background-image: url(./promo_apple_watch_se_3_.jpg);
+}
+#WU3{
+    color: white;
+    background-image: url(./promo_apple_watch_ultra3_.jpg);
+}
+#TI{
+    color: black;
+    background-image: url(./promo_iphone_tradein_.jpg);
+}
+
+
+
+
